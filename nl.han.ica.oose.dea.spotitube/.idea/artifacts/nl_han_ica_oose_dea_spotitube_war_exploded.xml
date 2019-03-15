@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="nl.han.ica.oose.dea.spotitube:war exploded">
+    <output-path>$PROJECT_DIR$/target/nl.han.ica.oose.dea.spotitube</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>nl.han.ica.oose.dea.spotitube</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nl.han.ica.oose.dea.spotitube" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.airhacks:jaxrs-cors:0.0.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/nl.han.ica.oose.dea.spotitube/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="nl.han.ica.oose.dea.spotitube/web/Web" />
+    </root>
+  </artifact>
+</component>

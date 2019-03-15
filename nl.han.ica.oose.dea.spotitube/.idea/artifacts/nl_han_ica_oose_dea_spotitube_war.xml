@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nl.han.ica.oose.dea.spotitube:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nl.han.ica.oose.dea.spotitube</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nl.han.ica.oose.dea.spotitube.war">
+      <element id="artifact" artifact-name="nl.han.ica.oose.dea.spotitube:war exploded" />
+    </root>
+  </artifact>
+</component>
