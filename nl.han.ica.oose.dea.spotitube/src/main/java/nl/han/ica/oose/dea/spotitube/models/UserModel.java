@@ -1,8 +1,7 @@
 package nl.han.ica.oose.dea.spotitube.models;
 
 public class UserModel {
-
-
+    
     String fullName;
     String token;
     String email;
