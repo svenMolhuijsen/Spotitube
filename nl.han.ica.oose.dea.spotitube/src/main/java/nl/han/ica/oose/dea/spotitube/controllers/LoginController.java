@@ -30,14 +30,11 @@ public class LoginController {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response login(LoginRequestDto request) {
-        System.out.println(request.getUser());
         checkDao();
         UserModel login = loginDao.login(request.getUser(), request.getPassword() );
-        System.out.println(request.getUser() +request.getPassword());
         if(login.getToken() == null){
             return Response.status(403).build();
         }
-
         LoginResponseDto response =  new LoginResponseDto();
         response.setToken(login.getToken());
         response.setUser(login.getFullName());

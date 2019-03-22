@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     19-3-2019 16:23:44                           */
+/* Created on:     21-3-2019 23:27:34                           */
 /*==============================================================*/
 
 
@@ -17,8 +17,8 @@ drop table if exists USER;
 /*==============================================================*/
 create table PLAYLIST
 (
+   PLAYLISTID           int not null auto_increment,
    NAME                 varchar(100) not null,
-   PLAYLISTID           numeric(8,0) not null,
    USERNAME             varchar(100) not null,
    primary key (PLAYLISTID)
 );
@@ -28,8 +28,8 @@ create table PLAYLIST
 /*==============================================================*/
 create table PLAYLIST_BEVAT_TRACKS
 (
-   PLAYLISTID           numeric(8,0) not null,
-   TRACKID              numeric(8,0) not null,
+   PLAYLISTID           int not null,
+   TRACKID              int not null,
    primary key (PLAYLISTID, TRACKID)
 );
 
@@ -38,12 +38,12 @@ create table PLAYLIST_BEVAT_TRACKS
 /*==============================================================*/
 create table TRACK
 (
-   TRACKID              numeric(8,0) not null,
+   TRACKID              int not null auto_increment,
    TITLE                varchar(100) not null,
    PERFORMER            varchar(100) not null,
-   DURATION             numeric(8,0) not null,
+   DURATION             int not null,
    ALBUM                varchar(100) not null,
-   PLAYCOUNT            numeric(8,0) not null,
+   PLAYCOUNT            int not null,
    PUBLICATIONDATE      datetime not null,
    DESCRIPTION          text,
    OFFLINEAVAILABLE     bool not null,
