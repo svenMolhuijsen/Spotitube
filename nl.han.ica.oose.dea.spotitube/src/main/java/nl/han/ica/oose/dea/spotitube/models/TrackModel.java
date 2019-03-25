@@ -5,15 +5,29 @@ import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackResponseDto;
 import java.util.Date;
 
 public class TrackModel extends TrackResponseDto {
+
     private int id;
     private String title;
     private String performer;
     private int duration;
     private String album;
     private int playcount;
-    private Date publicationDate;
+    private String publicationDate;
     private String description;
     private Boolean offlineAvailable;
+
+    public TrackModel(){}
+    public TrackModel(int id, String title, String performer, int duration, String album, int playcount, String publicationDate, String description, Boolean offlineAvailable) {
+        this.id = id;
+        this.title = title;
+        this.performer = performer;
+        this.duration = duration;
+        this.album = album;
+        this.playcount = playcount;
+        this.publicationDate = publicationDate;
+        this.description = description;
+        this.offlineAvailable = offlineAvailable;
+    }
 
     public int getId() {
         return id;
@@ -63,11 +77,11 @@ public class TrackModel extends TrackResponseDto {
         this.playcount = playcount;
     }
 
-    public Date getPublicationDate() {
+    public String getPublicationDate() {
         return publicationDate;
     }
 
-    public void setPublicationDate(Date publicationDate) {
+    public void setPublicationDate(String publicationDate) {
         this.publicationDate = publicationDate;
     }
 

@@ -44,7 +44,7 @@ public class PlaylistDAO extends DataAccesObject {
     return model;
   }
 
-  public void deletePlayLists(String token, int id) {
+  public void deletePlayLists(int id) {
     try {
       var cnPlaylists = getConnection();
 
@@ -75,4 +75,18 @@ public class PlaylistDAO extends DataAccesObject {
       System.out.println("Error getting results " + e);
     }
   }
+
+    public void changePlayLists(PlaylistModel playlistModel) {
+      try {
+        var connection = getConnection();
+        var statement =
+                connection.prepareStatement(
+                        "UPDATE playlist SET name = ? WHERE PLAYLISTID = ?");
+        statement.setString(1, playlistModel.getName());
+        statement.setInt(2, playlistModel.getId());
+        statement.executeUpdate();
+      } catch (SQLException e) {
+        System.out.println("Error getting results " + e);
+      }
+    }
 }

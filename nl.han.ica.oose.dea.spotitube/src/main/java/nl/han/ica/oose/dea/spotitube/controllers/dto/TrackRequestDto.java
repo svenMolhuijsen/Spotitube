@@ -1,8 +1,6 @@
 package nl.han.ica.oose.dea.spotitube.controllers.dto;
 
-import java.util.Date;
-
-public class TrackResponseDto {
+public class TrackRequestDto {
     private int id;
     private String title;
     private String performer;
@@ -13,8 +11,8 @@ public class TrackResponseDto {
     private String description;
     private Boolean offlineAvailable;
 
-    public TrackResponseDto(){}
-    public TrackResponseDto(int id, String title, String performer, int duration, String album, int playcount, String publicationDate, String description, Boolean offlineAvailable) {
+    public TrackRequestDto(){}
+    public TrackRequestDto(int id, String title, String performer, int duration, String album, int playcount, String publicationDate, String description, Boolean offlineAvailable) {
         this.id = id;
         this.title = title;
         this.performer = performer;

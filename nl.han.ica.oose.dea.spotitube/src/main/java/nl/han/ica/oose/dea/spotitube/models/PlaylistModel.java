@@ -10,6 +10,7 @@ public class PlaylistModel {
     private boolean owner;
     private List<TrackResponseDto> tracks;
 
+    public PlaylistModel(){}
     public PlaylistModel(int id, String name, boolean owner, List<TrackResponseDto> tracks) {
         this.id = id;
         this.name = name;
