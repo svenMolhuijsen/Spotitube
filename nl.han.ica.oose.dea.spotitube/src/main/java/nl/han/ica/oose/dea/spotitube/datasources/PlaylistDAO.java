@@ -14,9 +14,9 @@ public class PlaylistDAO extends DataAccesObject {
   public PlaylistsModel getPlayLists(String token) {
     var model = new PlaylistsModel();
     try {
-      var cnPlaylists = getConnection();
+      var connection = getConnection();
       var st =
-          cnPlaylists.prepareStatement(
+          connection.prepareStatement(
               "SELECT PLAYLISTID, NAME, (select 1 from USER U where P.USERNAME = U.USERNAME AND U.TOKEN = ?) AS OWNER,"
                   + " (select SUM(T1.duration) from track T1 inner join playlist_bevat_tracks PT on T1.trackID = PT.trackid where PT.playlistid = P.playlistid) AS DURATION"
                   + " FROM playlist P");
@@ -44,16 +44,16 @@ public class PlaylistDAO extends DataAccesObject {
     return model;
   }
 
-  public void deletePlayLists(int id) {
+  public void deletePlayList(int id) {
     try {
-      var cnPlaylists = getConnection();
+      var connection = getConnection();
 
       var st =
-          cnPlaylists.prepareStatement("DELETE FROM playlist_bevat_tracks where PLAYLISTID = ?");
+          connection.prepareStatement("DELETE FROM playlist_bevat_tracks where PLAYLISTID = ?");
       st.setInt(1, id);
       st.executeUpdate();
 
-      st = cnPlaylists.prepareStatement("DELETE FROM playlist where PLAYLISTID = ?");
+      st = connection.prepareStatement("DELETE FROM playlist where PLAYLISTID = ?");
       st.setInt(1, id);
       st.executeUpdate();
 
@@ -64,9 +64,9 @@ public class PlaylistDAO extends DataAccesObject {
 
   public void addPlayList(String token, PlaylistModel playlistModel) {
     try {
-      var cnPlaylists = getConnection();
+      var connection = getConnection();
       var st =
-          cnPlaylists.prepareStatement(
+          connection.prepareStatement(
               "INSERT INTO playlist (name, username) VALUES (?,(SELECT U.username FROM USER U WHERE U.token = ?))");
       st.setString(1, playlistModel.getName());
       st.setString(2, token);
@@ -76,17 +76,16 @@ public class PlaylistDAO extends DataAccesObject {
     }
   }
 
-    public void changePlayLists(PlaylistModel playlistModel) {
-      try {
-        var connection = getConnection();
-        var statement =
-                connection.prepareStatement(
-                        "UPDATE playlist SET name = ? WHERE PLAYLISTID = ?");
-        statement.setString(1, playlistModel.getName());
-        statement.setInt(2, playlistModel.getId());
-        statement.executeUpdate();
-      } catch (SQLException e) {
-        System.out.println("Error getting results " + e);
-      }
+  public void changePlayList(PlaylistModel playlistModel) {
+    try {
+      var connection = getConnection();
+      var statement =
+          connection.prepareStatement("UPDATE playlist SET name = ? WHERE PLAYLISTID = ?");
+      statement.setString(1, playlistModel.getName());
+      statement.setInt(2, playlistModel.getId());
+      statement.executeUpdate();
+    } catch (SQLException e) {
+      System.out.println("Error getting results " + e);
     }
+  }
 }

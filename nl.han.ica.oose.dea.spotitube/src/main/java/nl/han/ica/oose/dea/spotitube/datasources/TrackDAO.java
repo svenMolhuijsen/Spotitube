@@ -26,7 +26,9 @@ public class TrackDAO extends DataAccesObject {
   public List<TrackModel> getPlaylistTracks(int playlistId) {
     try {
       var cnTrack = getConnection();
-      var st = cnTrack.prepareStatement("SELECT trackid, title, performer, duration, album, playcount, publicationdate, description, offlineavailable from track where TRACKID in (select TRACKID from playlist_bevat_tracks where PLAYLISTID = ?)");
+      var st =
+          cnTrack.prepareStatement(
+              "SELECT trackid, title, performer, duration, album, playcount, publicationdate, description, offlineavailable from track where TRACKID in (select TRACKID from playlist_bevat_tracks where PLAYLISTID = ?)");
       st.setInt(1, playlistId);
       ResultSet rs = st.executeQuery();
       System.out.println(playlistId);
@@ -47,23 +49,23 @@ public class TrackDAO extends DataAccesObject {
 
   private TrackModel fillTrackModel(ResultSet rs) throws SQLException {
     return new TrackModel(
-            rs.getInt("trackid"),
-            rs.getString("title"),
-            rs.getString("performer"),
-            rs.getInt("duration"),
-            rs.getString("album"),
-            rs.getInt("playcount"),
-            rs.getString("publicationdate"),
-            rs.getString("description"),
-            rs.getBoolean("offlineavailable"));
+        rs.getInt("trackid"),
+        rs.getString("title"),
+        rs.getString("performer"),
+        rs.getInt("duration"),
+        rs.getString("album"),
+        rs.getInt("playcount"),
+        rs.getString("publicationdate"),
+        rs.getString("description"),
+        rs.getBoolean("offlineavailable"));
   }
 
   public void deletePlaylistTrack(int playlistId, int trackId) {
     try {
       var connection = getConnection();
-
       var statement =
-              connection.prepareStatement("DELETE FROM playlist_bevat_tracks where PLAYLISTID = ? AND TRACKID = ?");
+          connection.prepareStatement(
+              "DELETE FROM playlist_bevat_tracks where PLAYLISTID = ? AND TRACKID = ?");
       statement.setInt(1, playlistId);
       statement.setInt(2, trackId);
       statement.executeUpdate();
@@ -76,12 +78,15 @@ public class TrackDAO extends DataAccesObject {
     var connection = getConnection();
     try {
 
-      var statement =  connection.prepareStatement("insert into playlist_bevat_tracks (playlistid, trackid) value (?,?)");
+      var statement =
+          connection.prepareStatement(
+              "insert into playlist_bevat_tracks (playlistid, trackid) value (?,?)");
       statement.setInt(1, playlistId);
       statement.setInt(2, trackModel.getId());
       statement.executeUpdate();
 
-      var statement2 = connection.prepareStatement("UPDATE track SET OFFLINEAVAILABLE = ? WHERE TRACKID = ?");
+      var statement2 =
+          connection.prepareStatement("UPDATE track SET OFFLINEAVAILABLE = ? WHERE TRACKID = ?");
       statement2.setBoolean(1, trackModel.getOfflineAvailable());
       statement2.setInt(2, trackModel.getId());
       statement2.executeUpdate();

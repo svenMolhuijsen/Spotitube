@@ -1,102 +1,108 @@
 package nl.han.ica.oose.dea.spotitube.controllers.dto;
 
-import java.util.Date;
-
 public class TrackResponseDto {
-    private int id;
-    private String title;
-    private String performer;
-    private int duration;
-    private String album;
-    private int playcount;
-    private String publicationDate;
-    private String description;
-    private Boolean offlineAvailable;
+  private int id;
+  private String title;
+  private String performer;
+  private int duration;
+  private String album;
+  private int playcount;
+  private String publicationDate;
+  private String description;
+  private Boolean offlineAvailable;
 
-    public TrackResponseDto(){}
-    public TrackResponseDto(int id, String title, String performer, int duration, String album, int playcount, String publicationDate, String description, Boolean offlineAvailable) {
-        this.id = id;
-        this.title = title;
-        this.performer = performer;
-        this.duration = duration;
-        this.album = album;
-        this.playcount = playcount;
-        this.publicationDate = publicationDate;
-        this.description = description;
-        this.offlineAvailable = offlineAvailable;
-    }
+  public TrackResponseDto() {}
 
-    public int getId() {
-        return id;
-    }
+  public TrackResponseDto(
+      int id,
+      String title,
+      String performer,
+      int duration,
+      String album,
+      int playcount,
+      String publicationDate,
+      String description,
+      Boolean offlineAvailable) {
+    this.id = id;
+    this.title = title;
+    this.performer = performer;
+    this.duration = duration;
+    this.album = album;
+    this.playcount = playcount;
+    this.publicationDate = publicationDate;
+    this.description = description;
+    this.offlineAvailable = offlineAvailable;
+  }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+  public int getId() {
+    return id;
+  }
 
-    public String getTitle() {
-        return title;
-    }
+  public void setId(int id) {
+    this.id = id;
+  }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public String getPerformer() {
-        return performer;
-    }
+  public void setTitle(String title) {
+    this.title = title;
+  }
 
-    public void setPerformer(String performer) {
-        this.performer = performer;
-    }
+  public String getPerformer() {
+    return performer;
+  }
 
-    public int getDuration() {
-        return duration;
-    }
+  public void setPerformer(String performer) {
+    this.performer = performer;
+  }
 
-    public void setDuration(int duration) {
-        this.duration = duration;
-    }
+  public int getDuration() {
+    return duration;
+  }
 
-    public String getAlbum() {
-        return album;
-    }
+  public void setDuration(int duration) {
+    this.duration = duration;
+  }
 
-    public void setAlbum(String album) {
-        this.album = album;
-    }
+  public String getAlbum() {
+    return album;
+  }
 
-    public int getPlaycount() {
-        return playcount;
-    }
+  public void setAlbum(String album) {
+    this.album = album;
+  }
 
-    public void setPlaycount(int playcount) {
-        this.playcount = playcount;
-    }
+  public int getPlaycount() {
+    return playcount;
+  }
 
-    public String getPublicationDate() {
-        return publicationDate;
-    }
+  public void setPlaycount(int playcount) {
+    this.playcount = playcount;
+  }
 
-    public void setPublicationDate(String publicationDate) {
-        this.publicationDate = publicationDate;
-    }
+  public String getPublicationDate() {
+    return publicationDate;
+  }
 
-    public String getDescription() {
-        return description;
-    }
+  public void setPublicationDate(String publicationDate) {
+    this.publicationDate = publicationDate;
+  }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+  public String getDescription() {
+    return description;
+  }
 
-    public Boolean getOfflineAvailable() {
-        return offlineAvailable;
-    }
+  public void setDescription(String description) {
+    this.description = description;
+  }
 
-    public void setOfflineAvailable(Boolean offlineAvailable) {
-        this.offlineAvailable = offlineAvailable;
-    }
+  public Boolean getOfflineAvailable() {
+    return offlineAvailable;
+  }
 
-
+  public void setOfflineAvailable(Boolean offlineAvailable) {
+    this.offlineAvailable = offlineAvailable;
+  }
 }

@@ -4,44 +4,31 @@ import nl.han.ica.oose.dea.spotitube.controllers.dto.LoginRequestDto;
 import nl.han.ica.oose.dea.spotitube.controllers.dto.LoginResponseDto;
 import nl.han.ica.oose.dea.spotitube.datasources.LoginDAO;
 import nl.han.ica.oose.dea.spotitube.models.UserModel;
+import nl.han.ica.oose.dea.spotitube.services.ILoginService;
+import nl.han.ica.oose.dea.spotitube.services.TokenService;
 
+import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.Console;
 
 @Path("/login")
 public class LoginController {
-    LoginDAO loginDao;
+  private ILoginService loginService;
 
-    public void checkDao(){
-        if (loginDao == null) {
-            loginDao = new LoginDAO();
-        }
-    }
-    @GET
-    public String hello(){
-        return "hello world";
-    }
+  public LoginController(){};
 
-    @POST
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response login(LoginRequestDto request) {
-        checkDao();
-        UserModel login = loginDao.login(request.getUser(), request.getPassword() );
-        if(login.getToken() == null){
-            return Response.status(403).build();
-        }
-        LoginResponseDto response =  new LoginResponseDto();
-        response.setToken(login.getToken());
-        response.setUser(login.getFullName());
-
-        return Response.ok().entity(response).build();
-    }
+  @Inject
+  public LoginController(ILoginService loginService) {
+    this.loginService = loginService;
+  }
 
 
-    public void setLoginDAO(LoginDAO loginDao) {
-this.loginDao = loginDao;
-    }
+  @POST
+  @Consumes(MediaType.APPLICATION_JSON)
+  @Produces(MediaType.APPLICATION_JSON)
+  public Response login(LoginRequestDto request) {
+    LoginResponseDto response = loginService.login(request);
+    return Response.ok().entity(response).build();
+  }
 }

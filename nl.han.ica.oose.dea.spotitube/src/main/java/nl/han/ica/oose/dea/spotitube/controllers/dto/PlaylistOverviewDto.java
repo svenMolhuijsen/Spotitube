@@ -1,8 +1,10 @@
-package nl.han.ica.oose.dea.spotitube.models;
+package nl.han.ica.oose.dea.spotitube.controllers.dto;
+
+import nl.han.ica.oose.dea.spotitube.models.PlaylistModel;
 
 import java.util.List;
 
-public class PlaylistsModel {
+public class PlaylistOverviewDto {
   private List<PlaylistModel> playlists;
   private int length;
 

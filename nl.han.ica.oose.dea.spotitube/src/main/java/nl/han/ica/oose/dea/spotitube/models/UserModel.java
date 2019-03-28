@@ -1,42 +1,41 @@
 package nl.han.ica.oose.dea.spotitube.models;
 
 public class UserModel {
-    
-    String fullName;
-    String token;
-    String email;
-    String tel;
 
-    public String getFullName() {
-        return fullName;
-    }
+  String fullName;
+  String token;
+  String email;
+  String tel;
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
+  public String getFullName() {
+    return fullName;
+  }
 
-    public String getToken() {
-        return token;
-    }
+  public void setFullName(String fullName) {
+    this.fullName = fullName;
+  }
 
-    public void setToken(String token) {
-        this.token = token;
-    }
+  public String getToken() {
+    return token;
+  }
 
-    public String getEmail() {
-        return email;
-    }
+  public void setToken(String token) {
+    this.token = token;
+  }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+  public String getEmail() {
+    return email;
+  }
 
-    public String getTel() {
-        return tel;
-    }
+  public void setEmail(String email) {
+    this.email = email;
+  }
 
-    public void setTel(String tel) {
-        this.tel = tel;
-    }
+  public String getTel() {
+    return tel;
+  }
 
+  public void setTel(String tel) {
+    this.tel = tel;
+  }
 }
