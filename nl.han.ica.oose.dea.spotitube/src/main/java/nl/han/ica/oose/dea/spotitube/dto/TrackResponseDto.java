@@ -1,4 +1,6 @@
-package nl.han.ica.oose.dea.spotitube.controllers.dto;
+package nl.han.ica.oose.dea.spotitube.dto;
+
+import java.util.Objects;
 
 public class TrackResponseDto {
   private int id;
@@ -10,6 +12,27 @@ public class TrackResponseDto {
   private String publicationDate;
   private String description;
   private Boolean offlineAvailable;
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (!(o instanceof TrackResponseDto)) return false;
+    TrackResponseDto that = (TrackResponseDto) o;
+    return getId() == that.getId() &&
+            getDuration() == that.getDuration() &&
+            getPlaycount() == that.getPlaycount() &&
+            getTitle().equals(that.getTitle()) &&
+            getPerformer().equals(that.getPerformer()) &&
+            getAlbum().equals(that.getAlbum()) &&
+            getPublicationDate().equals(that.getPublicationDate()) &&
+            getDescription().equals(that.getDescription()) &&
+            getOfflineAvailable().equals(that.getOfflineAvailable());
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(getId(), getTitle(), getPerformer(), getDuration(), getAlbum(), getPlaycount(), getPublicationDate(), getDescription(), getOfflineAvailable());
+  }
 
   public TrackResponseDto() {}
 

@@ -1,9 +1,9 @@
 package nl.han.ica.oose.dea.spotitube.controllers;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistOverviewDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistRequestDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackOverviewDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackRequestDto;
 import nl.han.ica.oose.dea.spotitube.services.IPlaylistService;
 import nl.han.ica.oose.dea.spotitube.services.ItrackService;
 
@@ -17,26 +17,6 @@ public class PlaylistController {
 
   private IPlaylistService playlistService;
   private ItrackService trackService;
-
-  public PlaylistController() {}
-
-  @Inject
-  public PlaylistController(IPlaylistService service, ItrackService trackService) {
-    this.playlistService = service;
-    this.trackService = trackService;
-  }
-
-  public IPlaylistService getPlaylistService() {
-    return playlistService;
-  }
-
-  public void setPlaylistService(IPlaylistService playlistService) {
-    this.playlistService = playlistService;
-  }
-
-  public ItrackService getTrackService() { return trackService;  }
-
-  public void setTrackService(ItrackService trackService) {    this.trackService = trackService; }
 
   @GET
   @Produces(MediaType.APPLICATION_JSON)
@@ -78,7 +58,6 @@ public class PlaylistController {
   @Path("{playlistId}/tracks")
   public Response playListTracks(@QueryParam("token") String token, @PathParam("playlistId") int playlistId) {
     TrackOverviewDto overview = trackService.getTracksForPlaylist(token, playlistId);
-    System.out.println(playlistId);
     return Response.ok(overview).build();
   }
 
@@ -98,4 +77,15 @@ public class PlaylistController {
     TrackOverviewDto overview = trackService.addTrackToPlaylist(token, playlistId, trackRequestDto);
     return Response.status(201).entity(overview).build();
   }
+
+
+  @Inject
+  public void setTrackService(ItrackService trackService) {
+    this.trackService = trackService;
+  }
+  @Inject
+  public void setPlaylistService(IPlaylistService playlistService) {
+    this.playlistService = playlistService;
+  }
+
 }

@@ -1,24 +1,24 @@
 package nl.han.ica.oose.dea.spotitube.services;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistOverviewDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistRequestDto;
-import nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO;
-import nl.han.ica.oose.dea.spotitube.datasources.TrackDAO;
+import nl.han.ica.oose.dea.spotitube.datasources.IPlaylistDAO;
+import nl.han.ica.oose.dea.spotitube.datasources.ITrackDAO;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistRequestDto;
 import nl.han.ica.oose.dea.spotitube.models.PlaylistModel;
-import nl.han.ica.oose.dea.spotitube.models.PlaylistsModel;
+import nl.han.ica.oose.dea.spotitube.models.PlaylistOverviewModel;
 
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import java.util.ArrayList;
 
+@Default
 public class PlaylistServiceImp implements IPlaylistService {
-  private PlaylistDAO playlistDAO;
-  private TrackDAO trackDAO;
-  private TokenService tokenService;
-
-  public PlaylistServiceImp() {}
+  private IPlaylistDAO playlistDAO;
+  private ITrackDAO trackDAO;
+  private ITokenService tokenService;
 
   @Inject
-  public PlaylistServiceImp(PlaylistDAO playlistDAO, TrackDAO trackDAO, TokenService tokenService) {
+  public PlaylistServiceImp(IPlaylistDAO playlistDAO, ITrackDAO trackDAO, ITokenService tokenService) {
     this.playlistDAO = playlistDAO;
     this.trackDAO = trackDAO;
     this.tokenService = tokenService;
@@ -27,7 +27,8 @@ public class PlaylistServiceImp implements IPlaylistService {
   public PlaylistOverviewDto getAllPlaylists(String token) {
     tokenService.checkToken(token);
     // GET MODEL FROM DAO
-    PlaylistsModel playListModel = playlistDAO.getPlayLists(token);
+    PlaylistOverviewModel playListModel = playlistDAO.getPlayLists(token);
+
     // CREATE AND FILL DTO
     PlaylistOverviewDto playlistOverviewDto = new PlaylistOverviewDto();
     playlistOverviewDto.setLength(playListModel.getLength());

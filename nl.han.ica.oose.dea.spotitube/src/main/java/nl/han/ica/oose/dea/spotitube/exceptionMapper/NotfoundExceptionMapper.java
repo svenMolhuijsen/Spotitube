@@ -9,6 +9,6 @@ import javax.ws.rs.ext.Provider;
 public class NotfoundExceptionMapper implements ExceptionMapper<NotFoundException> {
     @Override
     public Response toResponse(NotFoundException e) {
-        return Response.status(Response.Status.NOT_FOUND).entity("resource not found").build();
+        return Response.status(Response.Status.NOT_FOUND).entity("resource not found"+ e.getMessage()).build();
     }
 }

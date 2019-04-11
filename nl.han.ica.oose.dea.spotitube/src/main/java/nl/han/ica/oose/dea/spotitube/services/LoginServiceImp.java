@@ -1,22 +1,21 @@
 package nl.han.ica.oose.dea.spotitube.services;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.LoginRequestDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.LoginResponseDto;
-import nl.han.ica.oose.dea.spotitube.datasources.LoginDAO;
+import nl.han.ica.oose.dea.spotitube.datasources.ILoginDAO;
+import nl.han.ica.oose.dea.spotitube.dto.LoginRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.LoginResponseDto;
 
 import nl.han.ica.oose.dea.spotitube.models.UserModel;
 
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 
+@Default
 public class LoginServiceImp implements ILoginService{
-    LoginDAO loginDao;
-    TokenService tokenService;
-
-    public LoginServiceImp() {
-    }
+    private ILoginDAO loginDao;
+    private TokenServiceImp tokenService;
 
     @Inject
-    public LoginServiceImp(LoginDAO loginDao, TokenService tokenService) {
+    public LoginServiceImp(ILoginDAO loginDao, TokenServiceImp tokenService) {
         this.loginDao = loginDao;
         this.tokenService = tokenService;
     }

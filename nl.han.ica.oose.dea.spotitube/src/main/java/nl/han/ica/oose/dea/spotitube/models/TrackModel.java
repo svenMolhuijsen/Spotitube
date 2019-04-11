@@ -1,6 +1,6 @@
 package nl.han.ica.oose.dea.spotitube.models;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackResponseDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackResponseDto;
 
 public class TrackModel extends TrackResponseDto {
 

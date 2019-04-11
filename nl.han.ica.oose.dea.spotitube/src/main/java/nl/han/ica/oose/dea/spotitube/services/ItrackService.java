@@ -1,7 +1,7 @@
 package nl.han.ica.oose.dea.spotitube.services;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackRequestDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackOverviewDto;
 
 public interface ItrackService {
 

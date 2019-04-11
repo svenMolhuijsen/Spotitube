@@ -1,24 +1,24 @@
 package nl.han.ica.oose.dea.spotitube.services;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackRequestDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackOverviewDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackResponseDto;
-import nl.han.ica.oose.dea.spotitube.datasources.TrackDAO;
+import nl.han.ica.oose.dea.spotitube.datasources.ITrackDAO;
+import nl.han.ica.oose.dea.spotitube.dto.TrackRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackResponseDto;
 import nl.han.ica.oose.dea.spotitube.models.TrackModel;
 
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
+@Default
 public class TrackService implements ItrackService {
 
-    private TrackDAO trackDao;
-    private TokenService tokenService;
-
-    public TrackService() {}
+    private ITrackDAO trackDao;
+    private ITokenService tokenService;
 
     @Inject
-    public TrackService( TrackDAO trackDAO, TokenService tokenService) {
+    public TrackService(ITrackDAO trackDAO, ITokenService tokenService) {
         this.trackDao = trackDAO;
         this.tokenService = tokenService;
     }
@@ -27,7 +27,7 @@ public class TrackService implements ItrackService {
     public TrackOverviewDto getTracksForPlaylist(String token, int playlistId) {
          {
              tokenService.checkToken(token);
-             List<TrackModel> trackModels = trackDao.getPlaylistTracks(playlistId);
+            var trackModels = trackDao.getPlaylistTracks(playlistId);
              TrackOverviewDto trackOverviewDto = getTrackOverviewDto(trackModels);
              return trackOverviewDto;
              }
@@ -59,9 +59,9 @@ public class TrackService implements ItrackService {
     }
 
         private TrackOverviewDto getTrackOverviewDto(List<TrackModel> trackModels) {
-            TrackOverviewDto response = new TrackOverviewDto();
-            response.setTracks(convertToDtoList(trackModels));
-            return response;
+            TrackOverviewDto trackOverviewDto = new TrackOverviewDto();
+            trackOverviewDto.setTracks(convertToDtoList(trackModels));
+            return trackOverviewDto;
         }
 
         private List<TrackResponseDto> convertToDtoList(List<TrackModel> trackModels) {

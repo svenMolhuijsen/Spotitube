@@ -12,7 +12,7 @@ public class LoginExceptionMapper implements ExceptionMapper<LoginException> {
     @Override
     public Response toResponse(LoginException message) {
         return Response.status(Response.Status.UNAUTHORIZED)
-                .entity(message)
+                .entity("Login not allowed" + message.getMessage())
                 .build();
     }
 }

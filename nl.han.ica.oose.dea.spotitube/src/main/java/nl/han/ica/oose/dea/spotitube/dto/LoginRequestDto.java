@@ -1,4 +1,4 @@
-package nl.han.ica.oose.dea.spotitube.controllers.dto;
+package nl.han.ica.oose.dea.spotitube.dto;
 
 public class LoginRequestDto {
   private String user;

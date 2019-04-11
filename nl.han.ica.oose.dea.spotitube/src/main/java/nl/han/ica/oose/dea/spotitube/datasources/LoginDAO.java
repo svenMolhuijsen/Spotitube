@@ -5,10 +5,13 @@ import nl.han.ica.oose.dea.spotitube.exceptionMapper.LoginException;
 import nl.han.ica.oose.dea.spotitube.exceptionMapper.DatabaseException;
 import nl.han.ica.oose.dea.spotitube.models.UserModel;
 
+import javax.enterprise.inject.Default;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class LoginDAO extends DataAccesObject {
+@Default
+public class LoginDAO extends DataAccesObject implements ILoginDAO {
+  @Override
   public UserModel login(String user, String password, String newToken) {
     var model = new UserModel();
     try {
@@ -31,7 +34,7 @@ public class LoginDAO extends DataAccesObject {
         model.setToken(newToken);
         return model;
       }else{
-        throw new LoginException("Error logging in: no credentials found");
+        throw new LoginException("No credentials found");
       }
     } catch (SQLException e) {
       throw new DatabaseException(e, "Error logging in ");
@@ -40,7 +43,8 @@ public class LoginDAO extends DataAccesObject {
 
 
   // check if user OWNS certain playlist
-  public boolean checkOwner( String token, int playlistId) {
+  @Override
+  public boolean checkOwner(String token, int playlistId) {
     try {
       var connection = getConnection();
       var st =
@@ -57,8 +61,9 @@ public class LoginDAO extends DataAccesObject {
     }
     return false;
   }
-  // check if user exists with token
 
+  // check if user exists with token
+  @Override
   public boolean checkUser(String token) {
     // TODO check if token is OK
     try {

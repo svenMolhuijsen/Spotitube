@@ -1,7 +1,7 @@
 package nl.han.ica.oose.dea.spotitube.services;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistOverviewDto;
-import nl.han.ica.oose.dea.spotitube.controllers.dto.PlaylistRequestDto;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistOverviewDto;
+import nl.han.ica.oose.dea.spotitube.dto.PlaylistRequestDto;
 
 public interface IPlaylistService {
     PlaylistOverviewDto getAllPlaylists(String token);

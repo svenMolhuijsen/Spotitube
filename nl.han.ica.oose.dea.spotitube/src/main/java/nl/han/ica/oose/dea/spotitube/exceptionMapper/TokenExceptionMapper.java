@@ -13,7 +13,7 @@ public class TokenExceptionMapper implements ExceptionMapper<TokenException> {
     @Override
     public Response toResponse(TokenException message) {
         return Response.status(Response.Status.FORBIDDEN)
-                .entity(message)
+                .entity("Forbidden access: "+message)
                 .build();
     }
 }

@@ -9,6 +9,6 @@ public class DatabaseExceptionMapper implements ExceptionMapper<DatabaseExceptio
     @Override
     public Response toResponse(DatabaseException e) {
         return Response.status(Response.Status.INTERNAL_SERVER_ERROR)
-                .entity(e.getMessage()).build();
+                .entity("database error occured: "+ e.getMessage()).build();
     }
 }

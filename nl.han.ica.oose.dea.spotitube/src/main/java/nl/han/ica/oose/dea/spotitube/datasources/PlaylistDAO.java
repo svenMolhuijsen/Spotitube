@@ -1,18 +1,22 @@
 package nl.han.ica.oose.dea.spotitube.datasources;
 
-import nl.han.ica.oose.dea.spotitube.controllers.dto.TrackResponseDto;
+import nl.han.ica.oose.dea.spotitube.dto.TrackResponseDto;
+import nl.han.ica.oose.dea.spotitube.exceptionMapper.DatabaseException;
 import nl.han.ica.oose.dea.spotitube.models.PlaylistModel;
-import nl.han.ica.oose.dea.spotitube.models.PlaylistsModel;
+import nl.han.ica.oose.dea.spotitube.models.PlaylistOverviewModel;
 
+import javax.enterprise.inject.Default;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlaylistDAO extends DataAccesObject {
+@Default
+public class PlaylistDAO extends DataAccesObject implements IPlaylistDAO {
 
-  public PlaylistsModel getPlayLists(String token) {
-    var model = new PlaylistsModel();
+  @Override
+  public PlaylistOverviewModel getPlayLists(String token) {
+    var model = new PlaylistOverviewModel();
     try {
       var connection = getConnection();
       var st =
@@ -39,11 +43,12 @@ public class PlaylistDAO extends DataAccesObject {
       model.setPlaylists(playlists);
       model.setLength(totalDuration);
     } catch (SQLException e) {
-      System.out.println("Error getting results " + e);
+      throw new DatabaseException(e, "error getting playlists");
     }
     return model;
   }
 
+  @Override
   public void deletePlayList(int id) {
     try {
       var connection = getConnection();
@@ -58,10 +63,11 @@ public class PlaylistDAO extends DataAccesObject {
       st.executeUpdate();
 
     } catch (SQLException e) {
-      System.out.println("Error deleting record" + e);
+      throw new DatabaseException(e, "error deleting playlist");
     }
   }
 
+  @Override
   public void addPlayList(String token, PlaylistModel playlistModel) {
     try {
       var connection = getConnection();
@@ -72,10 +78,11 @@ public class PlaylistDAO extends DataAccesObject {
       st.setString(2, token);
       st.executeUpdate();
     } catch (SQLException e) {
-      System.out.println("Error getting results " + e);
+      throw new DatabaseException(e, "error adding playlist");
     }
   }
 
+  @Override
   public void changePlayList(PlaylistModel playlistModel) {
     try {
       var connection = getConnection();
@@ -85,7 +92,7 @@ public class PlaylistDAO extends DataAccesObject {
       statement.setInt(2, playlistModel.getId());
       statement.executeUpdate();
     } catch (SQLException e) {
-      System.out.println("Error getting results " + e);
+      throw new DatabaseException(e, "error changing playlist");
     }
   }
 }

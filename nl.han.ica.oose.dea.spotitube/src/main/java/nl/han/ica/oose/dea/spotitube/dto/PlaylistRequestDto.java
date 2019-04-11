@@ -1,12 +1,16 @@
-package nl.han.ica.oose.dea.spotitube.controllers.dto;
+package nl.han.ica.oose.dea.spotitube.dto;
 
+import javax.inject.Inject;
 import java.util.List;
+
 
 public class PlaylistRequestDto {
   private int id;
   private String name;
   private boolean owner;
-  private List<TrackResponseDto> tracks;
+
+
+
 
   public int getId() {
     return id;
@@ -32,11 +36,5 @@ public class PlaylistRequestDto {
     this.owner = owner;
   }
 
-  public List<TrackResponseDto> getTracks() {
-    return tracks;
-  }
 
-  public void setTracks(List<TrackResponseDto> tracks) {
-    this.tracks = tracks;
-  }
 }

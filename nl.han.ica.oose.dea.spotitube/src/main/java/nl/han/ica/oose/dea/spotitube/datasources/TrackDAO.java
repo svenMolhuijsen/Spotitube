@@ -1,13 +1,17 @@
 package nl.han.ica.oose.dea.spotitube.datasources;
 
+import nl.han.ica.oose.dea.spotitube.exceptionMapper.DatabaseException;
 import nl.han.ica.oose.dea.spotitube.models.TrackModel;
 
+import javax.enterprise.inject.Default;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TrackDAO extends DataAccesObject {
+@Default
+public class TrackDAO extends DataAccesObject implements ITrackDAO {
+  @Override
   public List<TrackModel> getAvailableTracks(int playlistId) {
     try {
       var cnTrack = getConnection();
@@ -18,11 +22,11 @@ public class TrackDAO extends DataAccesObject {
       ResultSet rs = st.executeQuery();
       return getTrackModels(rs);
     } catch (SQLException e) {
-      System.out.println("Error getting results " + e);
+      throw new DatabaseException(e, "error: cant get available tracks");
     }
-    return null;
   }
 
+  @Override
   public List<TrackModel> getPlaylistTracks(int playlistId) {
     try {
       var cnTrack = getConnection();
@@ -31,12 +35,10 @@ public class TrackDAO extends DataAccesObject {
               "SELECT trackid, title, performer, duration, album, playcount, publicationdate, description, offlineavailable from track where TRACKID in (select TRACKID from playlist_bevat_tracks where PLAYLISTID = ?)");
       st.setInt(1, playlistId);
       ResultSet rs = st.executeQuery();
-      System.out.println(playlistId);
       return getTrackModels(rs);
     } catch (SQLException e) {
-      System.out.println("Error getting results " + e);
+      throw new DatabaseException(e, "error: cant get tracks");
     }
-    return null;
   }
 
   private List<TrackModel> getTrackModels(ResultSet rs) throws SQLException {
@@ -60,6 +62,7 @@ public class TrackDAO extends DataAccesObject {
         rs.getBoolean("offlineavailable"));
   }
 
+  @Override
   public void deletePlaylistTrack(int playlistId, int trackId) {
     try {
       var connection = getConnection();
@@ -70,10 +73,11 @@ public class TrackDAO extends DataAccesObject {
       statement.setInt(2, trackId);
       statement.executeUpdate();
     } catch (SQLException e) {
-      System.out.println("Error deleting record" + e);
+      throw new DatabaseException(e, "error: deleting playlisttracks failed");
     }
   }
 
+  @Override
   public void addPlayListTrack(TrackModel trackModel, int playlistId, String token) {
     var connection = getConnection();
     try {
@@ -91,7 +95,7 @@ public class TrackDAO extends DataAccesObject {
       statement2.setInt(2, trackModel.getId());
       statement2.executeUpdate();
     } catch (SQLException e) {
-      e.printStackTrace();
+      throw new DatabaseException(e, "error: cant add track to playlist");
     }
   }
 }

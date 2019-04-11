@@ -7,44 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603b558b-faeb-4404-b833-b3e95b6095ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistOverviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackOverviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/GeneralExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/IPlaylistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/ILoginDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/IPlaylistDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/ITrackDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackOverviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ITokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/exceptions/DataBaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/LoginServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TokenServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TrackServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nl.han.ica.oose.dea.spotitube.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nl.han.ica.oose.dea.spotitube.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistsresponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TracksResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/DataAccesObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/DataAccesObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/LoginRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/LoginResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistOverviewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistOverviewDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackOverviewDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/TrackDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/TrackDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistOverviewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/TrackModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/TrackModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/IPlaylistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/IPlaylistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -58,12 +63,56 @@
     <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$LoginControllerTest_login.ic" NAME="LoginControllerTest.login Coverage Results" MODIFIED="1553787956014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest.ic" NAME="PlaylistControllerTest Coverage Results" MODIFIED="1553848300655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest__1_.ic" NAME="PlaylistControllerTest (1) Coverage Results" MODIFIED="1553848745922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$nl_han_ica_oose_dea_spotitube_controllers_tests_in_nl_han_ica_oose_dea_spotitube.ic" NAME="nl.han.ica.oose.dea.spotitube.controllers.tests in nl.han.ica.oose.dea.spotitube Coverage Results" MODIFIED="1553852388548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistServiceTest.ic" NAME="PlaylistServiceTest Coverage Results" MODIFIED="1553896512212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest_getPlayListOverview.ic" NAME="PlaylistControllerTest.getPlayListOverview Coverage Results" MODIFIED="1553814270812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$TrackServiceTest_getAvailableTracksForPlaylist.ic" NAME="TrackServiceTest.getAvailableTracksForPlaylist Coverage Results" MODIFIED="1553967149242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$TrackControllerTest_availableTracksTest.ic" NAME="TrackControllerTest.availableTracksTest Coverage Results" MODIFIED="1553852516515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$nl_han_ica_in_nl_han_ica_oose_dea_spotitube.ic" NAME="nl.han.ica in nl.han.ica.oose.dea.spotitube Coverage Results" MODIFIED="1553853105859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.controllers.dto.*</EXCLUDED_FILTER>
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.models.*</EXCLUDED_FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest_addPlaylist.ic" NAME="PlaylistControllerTest.addPlaylist Coverage Results" MODIFIED="1553845977528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistServiceTest_addPlaylist.ic" NAME="PlaylistServiceTest.addPlaylist Coverage Results" MODIFIED="1553896649047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.services.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$LoginControllerTest.ic" NAME="LoginControllerTest Coverage Results" MODIFIED="1553787770329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest_addPlaylistTrack.ic" NAME="PlaylistControllerTest.addPlaylistTrack Coverage Results" MODIFIED="1553848258283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$TomEE_9_0_12.ic" NAME="TomEE 9.0.12 Coverage Results" MODIFIED="1554067420700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$PlaylistControllerTest_changePlayList.ic" NAME="PlaylistControllerTest.changePlayList Coverage Results" MODIFIED="1553845707532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nl.han.ica.oose.dea.spotitube.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nl_han_ica_oose_dea_spotitube$All_in_nl_han_ica_oose_dea_spotitube.ic" NAME="All in nl.han.ica.oose.dea.spotitube Coverage Results" MODIFIED="1554380929473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nl.han.ica.oose.dea.spotitube.*</FILTER>
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.dto.*</EXCLUDED_FILTER>
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.exceptions.*</EXCLUDED_FILTER>
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.exceptionMapper.*</EXCLUDED_FILTER>
+      <EXCLUDED_FILTER>nl.han.ica.oose.dea.spotitube.models.*</EXCLUDED_FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
+    <option name="myFlattenPackages" value="true" />
+    <option name="myElementSize" value="102" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -112,10 +161,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/DataAccesObject.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="54">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,10 +195,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackOverviewDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="126">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/ILoginDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,10 +252,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            <state relative-caret-position="-18">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,67 +264,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistOverviewDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="199">
+              <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -218,9 +280,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -228,7 +290,15 @@
     <findStrings>
       <find>cnPlaylists</find>
       <find>while</find>
+      <find>Service</find>
+      <find>system.out.prin</find>
+      <find>system.out.print</find>
+      <find>PlaylistRe</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\main\java\nl\han\ica\oose\dea\spotitube</dir>
+      <dir>D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\test\Junit tests</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -236,57 +306,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/playlistResponseDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistResponseDto.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistsresponseDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/playlistRequestDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TracksResponseDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/TrackModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackRequestDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/IPlaylistService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/Itrackservice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/Trackservice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TracksOverviewDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackOverviewDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/TrackDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/generalExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/GeneralExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/SpotitubePersistenceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/SpotitubeLoginException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginException.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/InvalidTokenException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/DataAccesObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/tests/LoginControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/tests/TrackControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/tests/LoginServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/tests/PlaylistControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/LoginServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistOverviewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistOverviewDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/DefaultTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/DefaultTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackOverviewDto.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/exceptions/DataBaseException.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TokenServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/GeneralExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackOverviewDto.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/IPlaylistDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/TrackDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TrackServiceTest.java" />
       </list>
     </option>
   </component>
@@ -316,10 +386,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-8" />
     <option name="width" value="977" />
-    <option name="height" value="523" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,7 +396,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -378,7 +446,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spotitube" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nl.han.ica.oose.dea.spotitube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nl.han.ica.oose.dea.spotitube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spotitube" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,7 +462,18 @@
               <item name="nl.han.ica.oose.dea.spotitube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spotitube" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptionMapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nl.han.ica.oose.dea.spotitube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nl.han.ica.oose.dea.spotitube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spotitube" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nl.han.ica.oose.dea.spotitube" type="b2602c69:ProjectViewProjectNode" />
@@ -406,58 +493,71 @@
             <path>
               <item name="nl.han.ica.oose.dea.spotitube" type="b2602c69:ProjectViewProjectNode" />
               <item name="nl.han.ica.oose.dea.spotitube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553797469025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554458982662" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nl.han.ica.oose.dea.spotitube.services" />
+      <recent name="nl.han.ica.oose.dea.spotitube.datasources" />
       <recent name="nl.han.ica.oose.dea.spotitube.controllers" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="nl.han.ica.oose.dea.spotitube.datasources" />
+      <recent name="nl.han.ica.oose.dea.spotitube.services" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nl.han.ica.oose.dea.spotitube.services" />
       <recent name="nl.han.ica.oose.dea.spotitube.controllers.tests" />
+      <recent name="nl.han.ica.oose.dea.spotitube.controllers" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\test" />
-      <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="nl.han.ica.oose.dea.spotitube.models" />
-      <recent name="nl.han.ica.oose.dea.spotitube.controllers.dto" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nl.han.ica.oose.dea.spotitube" />
+      <recent name="nl.han.ica.oose.dea.spotitube.services" />
+      <recent name="nl.han.ica.oose.dea.spotitube.controllers" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\main\java\nl\han\ica\oose\dea\spotitube\controllers\dto" />
       <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\test\resources" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="nl.han.ica.oose.dea.spotitube.services" />
-      <recent name="nl.han.ica.oose.dea.spotitube.datasources" />
-      <recent name="nl.han.ica.oose.dea.spotitube.controllers" />
+      <recent name="nl.han.ica.oose.dea.spotitube.models" />
+      <recent name="nl.han.ica.oose.dea.spotitube.controllers.dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\test\Junit tests" />
+      <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src\test" />
+      <recent name="D:\DEA\spotitube\nl.han.ica.oose.dea.spotitube\src" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -498,54 +598,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginControllerTest.login">
-    <configuration name="LoginControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TomEE Server.TomEE 9.0.12">
+    <configuration name="All in nl.han.ica.oose.dea.spotitube" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nl.han.ica.oose.dea.spotitube" />
-      <extension name="coverage">
+      <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.controllers.tests.*" />
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.dto.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.exceptions.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.exceptionMapper.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.models.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.tests" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.tests.LoginControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nl.han.ica.oose.dea.spotitube" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.han.ica.oose.dea.spotitube.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.LoginControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginControllerTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nl.han.ica.oose.dea.spotitube" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.han.ica.oose.dea.spotitube.controllers" />
-      <option name="MAIN_CLASS_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.LoginControllerTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaylistControllerTest.getPlayListOverview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaylistControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nl.han.ica.oose.dea.spotitube" />
       <extension name="coverage">
         <pattern>
@@ -555,24 +646,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="nl.han.ica.oose.dea.spotitube.controllers" />
       <option name="MAIN_CLASS_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.PlaylistControllerTest" />
-      <option name="METHOD_NAME" value="getPlayListOverview" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TomEE 9.0.12" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.12" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="TrackControllerTest.availableTracksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nl.han.ica.oose.dea.spotitube" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.exceptions.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.exceptionMapper.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="nl.han.ica.oose.dea.spotitube.models.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.han.ica.oose.dea.spotitube.controllers" />
+      <option name="MAIN_CLASS_NAME" value="nl.han.ica.oose.dea.spotitube.controllers.TrackControllerTest" />
+      <option name="METHOD_NAME" value="availableTracksTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TomEE 9.0.12" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.12" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="nl.han.ica.oose.dea.spotitube:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/nl_han_ica_oose_dea_spotitube_war" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="TomEE_9_0_12_nl_han_ica_oose_dea_spotitube" />
+        <option name="BASE_DIRECTORY_NAME" value="TomEE_9_0_12_(1)_nl_han_ica_oose_dea_spotitube" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -785,19 +907,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoginControllerTest" />
-      <item itemvalue="JUnit.LoginControllerTest.login" />
-      <item itemvalue="JUnit.LoginControllerTest (1)" />
+      <item itemvalue="JUnit.All in nl.han.ica.oose.dea.spotitube" />
+      <item itemvalue="JUnit.TrackControllerTest.availableTracksTest" />
+      <item itemvalue="JUnit.PlaylistControllerTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.16" />
       <item itemvalue="TomEE Server.TomEE 9.0.12" />
-      <item itemvalue="JUnit.PlaylistControllerTest.getPlayListOverview" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginControllerTest.login" />
-        <item itemvalue="JUnit.LoginControllerTest" />
-        <item itemvalue="JUnit.PlaylistControllerTest.getPlayListOverview" />
-        <item itemvalue="JUnit.LoginControllerTest (1)" />
+        <item itemvalue="JUnit.All in nl.han.ica.oose.dea.spotitube" />
+        <item itemvalue="JUnit.PlaylistControllerTest" />
+        <item itemvalue="JUnit.TrackControllerTest.availableTracksTest" />
       </list>
     </recent_temporary>
   </component>
@@ -826,7 +946,25 @@
       <workItem from="1553701857806" duration="3298000" />
       <workItem from="1553760298682" duration="8812000" />
       <workItem from="1553781486151" duration="3114000" />
-      <workItem from="1553791084470" duration="6275000" />
+      <workItem from="1553791084470" duration="7023000" />
+      <workItem from="1553812946790" duration="2517000" />
+      <workItem from="1553845201328" duration="1343000" />
+      <workItem from="1553847710485" duration="1180000" />
+      <workItem from="1553848934070" duration="8381000" />
+      <workItem from="1553861745842" duration="4052000" />
+      <workItem from="1553870912829" duration="5980000" />
+      <workItem from="1553889669551" duration="81000" />
+      <workItem from="1553889789624" duration="2344000" />
+      <workItem from="1553896374921" duration="698000" />
+      <workItem from="1553897174003" duration="706000" />
+      <workItem from="1553898607264" duration="1071000" />
+      <workItem from="1553952897216" duration="105000" />
+      <workItem from="1553953031115" duration="3581000" />
+      <workItem from="1553963587402" duration="55000" />
+      <workItem from="1553963683873" duration="18322000" />
+      <workItem from="1554065252863" duration="26931000" />
+      <workItem from="1554401920972" duration="2810000" />
+      <workItem from="1554455922565" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="setup spotitube">
       <created>1552646210033</created>
@@ -853,45 +991,90 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 10m 12s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 00h 25m 29s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 12m 28s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 00h 26m 13s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 13m 12s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 11h 19m 34s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 14m 05s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 11h 21m 04s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 14m 33s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 11h 21m 10s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 14m 51s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.04 at 11h 21m 38s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaylistControllerTest_getPlayListOverview - 2019.03.28 at 19h 15m 53s.xml">
-      <configuration name="PlaylistControllerTest.getPlayListOverview" configurationId="JUnit" />
+    <history-entry file="PlaylistControllerTest - 2019.04.04 at 21h 17m 31s.xml">
+      <configuration name="PlaylistControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginControllerTest - 2019.03.28 at 19h 16m 43s.xml">
-      <configuration name="LoginControllerTest" configurationId="JUnit" />
+    <history-entry file="PlaylistControllerTest - 2019.04.04 at 21h 18m 54s.xml">
+      <configuration name="PlaylistControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginControllerTest_login - 2019.03.28 at 19h 18m 16s.xml">
-      <configuration name="LoginControllerTest.login" configurationId="JUnit" />
+    <history-entry file="PlaylistControllerTest - 2019.04.04 at 21h 19m 01s.xml">
+      <configuration name="PlaylistControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginControllerTest_login - 2019.03.28 at 19h 20m 02s.xml">
-      <configuration name="LoginControllerTest.login" configurationId="JUnit" />
+    <history-entry file="All_in_nl_han_ica_oose_dea_spotitube - 2019.04.05 at 11h 19m 53s.xml">
+      <configuration name="All in nl.han.ica.oose.dea.spotitube" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128095000" />
+    <option name="totallyTimeSpent" value="210854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20738254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25838926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="0" weight="0.44708994" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Extract Method" order="2" weight="0.6524064" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32804233" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.5185185" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3994709" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5185185" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32936507" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32936507" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.37169313" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32936507" />
+      <window_info anchor="bottom" id="SQL Generator" order="19" weight="0.32936507" />
+      <window_info anchor="right" id="PlantUML" order="0" weight="0.3295302" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.6221477" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="JSF" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="CDI" order="8" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="9" weight="0.09731544" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.2637584" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24161074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -904,8 +1087,8 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Extract Method" order="2" weight="0.6524064" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3994709" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -920,9 +1103,9 @@
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.37169313" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.32936507" />
       <window_info anchor="bottom" id="SQL Generator" order="19" weight="0.32936507" />
-      <window_info anchor="right" id="PlantUML" order="0" />
+      <window_info anchor="right" id="PlantUML" order="0" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.6227898" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.6221477" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -932,9 +1115,9 @@
       <window_info anchor="right" id="Database" order="9" weight="0.09731544" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" />
-      <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.3295302" />
-    </layout>
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.33221477" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -949,103 +1132,131 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java</url>
+          <line>48</line>
+          <properties class="nl.han.ica.oose.dea.spotitube.controllers.PlaylistController" method="addPlaylist">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginResponseDto.java">
+    <entry file="jar://C:/opt/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="539" column="12" selection-start-line="539" selection-start-column="12" selection-end-line="539" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/LoginServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar!/org/mockito/internal/creation/cglib/MethodInterceptorFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/DefaultTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar!/org/mockito/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/UserModel.java">
+    <entry file="jar://C:/opt/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/IntPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/exceptions/ExceptionTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/exceptions/DataBaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TokenServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackResponseDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="100" />
+        <state relative-caret-position="216">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/Controller.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://JAVA/nl.han.ica.oose.dea.spotitube.controllers.dto.LoginRequestDto">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>nl.han.ica.oose.dea.spotitube.controllers.dto.LoginRequestDto</OriginalElement>
-          <nodes>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers.dto.LoginRequestDto</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="-29.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/D:/DEA/spotitube/nl.han.ica.oose.dea.spotitube/src/main/java/nl/han/ica/oose/dea/spotitube">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="646.0" y="177.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/nl.han.ica.oose.dea.spotitube.controllers">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>nl.han.ica.oose.dea.spotitube.controllers</OriginalElement>
-          <nodes>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers.dto</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers.LoginController</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers.PlaylistController</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers.TrackController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="135.0" y="45.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,14 +1266,479 @@
           <ID>JAVA</ID>
           <OriginalElement>nl.han.ica.oose.dea.spotitube</OriginalElement>
           <nodes>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.controllers</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.services</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.models</node>
-            <node x="" y="">nl.han.ica.oose.dea.spotitube.datasources</node>
+            <node x="974.5500517614639" y="647.0">nl.han.ica.oose.dea.spotitube.services.ILoginService</node>
+            <node x="697.9065934065936" y="1105.0">nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest</node>
+            <node x="13.703600071537721" y="1105.0">nl.han.ica.oose.dea.spotitube.services.TrackServiceTest</node>
+            <node x="836.4572097313062" y="239.0">nl.han.ica.oose.dea.spotitube.datasources.DataAccesObject</node>
+            <node x="1385.5116969107935" y="548.0">nl.han.ica.oose.dea.spotitube.datasources.LoginDAO</node>
+            <node x="842.7572097313061" y="0.0">nl.han.ica.oose.dea.spotitube.exceptionMapper</node>
+            <node x="480.0143374757496" y="647.0">nl.han.ica.oose.dea.spotitube.datasources.TrackDAO</node>
+            <node x="271.67367813509026" y="896.0">nl.han.ica.oose.dea.spotitube.controllers</node>
+            <node x="1464.9491969107935" y="896.0">nl.han.ica.oose.dea.spotitube.services.LoginServiceImp</node>
+            <node x="866.8000517614637" y="548.0">nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO</node>
+            <node x="436.13720973130626" y="0.0">nl.han.ica.oose.dea.spotitube.dto</node>
+            <node x="772.3355693667286" y="896.0">nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp</node>
+            <node x="601.0143374757497" y="647.0">nl.han.ica.oose.dea.spotitube.services.IPlaylistService</node>
+            <node x="1131.2789528416376" y="647.0">nl.han.ica.oose.dea.spotitube.services.TokenService</node>
+            <node x="1292.1565934065939" y="1105.0">nl.han.ica.oose.dea.spotitube.services.LoginServiceTest</node>
+            <node x="108.6736781350902" y="896.0">nl.han.ica.oose.dea.spotitube.services.TrackService</node>
+            <node x="131.42307692307713" y="647.0">nl.han.ica.oose.dea.spotitube.services.ItrackService</node>
+            <node x="393.7014954455919" y="239.0">nl.han.ica.oose.dea.spotitube.models</node>
+            <node x="0.0" y="1179.0">nl.han.ica.oose.dea.spotitube.exceptions</node>
+            <node x="1192.5116969107935" y="896.0">nl.han.ica.oose.dea.spotitube.services.TokenServiceTest</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="142.0" y="47.0" />
+          <edges>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackService" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="-37.66666666666674" y="-14.5" />
+              <point x="127.50701146842346" y="856.0" />
+              <point x="98.92307692307713" y="856.0" />
+              <point x="98.92307692307713" y="139.0" />
+              <point x="458.65506687416337" y="139.0" />
+              <point x="-25.98214285714289" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO" target="nl.han.ica.oose.dea.spotitube.datasources.DataAccesObject">
+              <point x="20.200000000000045" y="-14.5" />
+              <point x="550.7143374757496" y="617.0" />
+              <point x="566.8708942335788" y="617.0" />
+              <point x="566.8708942335788" y="518.0" />
+              <point x="848.0405430646396" y="518.0" />
+              <point x="-57.91666666666663" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="-42.1875" y="-14.5" />
+              <point x="1490.2616969107935" y="786.0" />
+              <point x="1235.7432385559232" y="786.0" />
+              <point x="45.96428571428578" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TokenService" target="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO">
+              <point x="29.25" y="-14.5" />
+              <point x="1219.0289528416374" y="607.0" />
+              <point x="1404.8241969107935" y="607.0" />
+              <point x="-32.1875" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp">
+              <point x="34.0" y="-14.5" />
+              <point x="1394.1565934065939" y="1065.0" />
+              <point x="1532.4491969107935" y="1065.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="-9.166666666666742" y="-14.5" />
+              <point x="912.633385094797" y="408.0" />
+              <point x="814.9572097313062" y="408.0" />
+              <point x="814.9572097313062" y="139.0" />
+              <point x="514.0836383027348" y="139.0" />
+              <point x="29.446428571428555" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.controllers">
+              <point x="-33.75" y="14.5" />
+              <point x="305.42367813509026" y="945.0" />
+              <point x="251.67367813509026" y="945.0" />
+              <point x="251.67367813509026" y="917.75" />
+              <point x="-67.5" y="7.25" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.ILoginService" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="0.0" y="-14.5" />
+              <point x="1033.550051761464" y="129.0" />
+              <point x="517.5479240170205" y="129.0" />
+              <point x="32.91071428571422" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="-39.375" y="-14.5" />
+              <point x="299.79867813509026" y="716.0" />
+              <point x="294.4830052641643" y="716.0" />
+              <point x="294.4830052641643" y="159.0" />
+              <point x="465.5836383027348" y="159.0" />
+              <point x="-19.053571428571445" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO">
+              <point x="31.15384615384619" y="-14.5" />
+              <point x="112.35744622538391" y="1035.0" />
+              <point x="417.17367813509026" y="1035.0" />
+              <point x="417.17367813509026" y="746.0" />
+              <point x="511.5768374757496" y="746.0" />
+              <point x="-18.9375" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="47.59999999999991" y="-14.5" />
+              <point x="1407.7565934065938" y="1075.0" />
+              <point x="1610.8526385330763" y="1075.0" />
+              <point x="1610.8526385330763" y="89.0" />
+              <point x="527.9407811598777" y="89.0" />
+              <point x="43.303571428571445" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp" target="nl.han.ica.oose.dea.spotitube.services.ILoginService">
+              <point x="-59.0625" y="-14.5" />
+              <point x="1473.3866969107935" y="796.0" />
+              <point x="1077.800051761464" y="796.0" />
+              <point x="44.25" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TokenServiceTest" target="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO">
+              <point x="17.375" y="-14.5" />
+              <point x="1279.3866969107935" y="876.0" />
+              <point x="1290.3440934065939" y="876.0" />
+              <point x="1290.3440934065939" y="617.0" />
+              <point x="1417.6991969107935" y="617.0" />
+              <point x="-19.3125" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-13.0" y="-14.5" />
+              <point x="830.8355693667286" y="776.0" />
+              <point x="824.1829956759333" y="776.0" />
+              <point x="824.1829956759333" y="458.0" />
+              <point x="476.3014954455919" y="458.0" />
+              <point x="23.600000000000023" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.dto" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="-43.303571428571445" y="14.5" />
+              <point x="441.3336383027348" y="59.0" />
+              <point x="406.13720973130626" y="59.0" />
+              <point x="406.13720973130626" y="7.25" />
+              <point x="-48.5" y="-7.25" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.services.IPlaylistService">
+              <point x="-15.428571428571445" y="-14.5" />
+              <point x="754.4780219780223" y="1005.0" />
+              <point x="679.1393374757497" y="1005.0" />
+              <point x="15.625" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp">
+              <point x="25.714285714285666" y="-14.5" />
+              <point x="795.6208791208794" y="1035.0" />
+              <point x="843.8355693667286" y="1035.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-27.5" y="-14.5" />
+              <point x="894.3000517614637" y="418.0" />
+              <point x="485.74149544559185" y="418.0" />
+              <point x="33.039999999999964" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO">
+              <point x="6.7999999999999545" y="-14.5" />
+              <point x="1366.9565934065936" y="1045.0" />
+              <point x="1443.4491969107935" y="1045.0" />
+              <point x="6.4375" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="15.428571428571445" y="-14.5" />
+              <point x="785.3351648351652" y="975.0" />
+              <point x="757.0857660471781" y="975.0" />
+              <point x="757.0857660471781" y="478.0" />
+              <point x="744.9929240170205" y="478.0" />
+              <point x="744.9929240170205" y="169.0" />
+              <point x="503.6907811598777" y="169.0" />
+              <point x="19.053571428571445" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.services.IPlaylistService">
+              <point x="39.375" y="-14.5" />
+              <point x="378.54867813509026" y="776.0" />
+              <point x="647.8893374757497" y="776.0" />
+              <point x="-15.625" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.services.ItrackService">
+              <point x="10.384615384615358" y="-14.5" />
+              <point x="91.58821545615308" y="1015.0" />
+              <point x="98.1736781350902" y="1015.0" />
+              <point x="98.1736781350902" y="876.0" />
+              <point x="145.67307692307713" y="876.0" />
+              <point x="-42.75" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO" target="nl.han.ica.oose.dea.spotitube.datasources.DataAccesObject">
+              <point x="9.166666666666742" y="-14.5" />
+              <point x="930.9667184281304" y="398.0" />
+              <point x="894.3738763979728" y="398.0" />
+              <point x="-11.583333333333371" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="13.0" y="-14.5" />
+              <point x="856.8355693667286" y="766.0" />
+              <point x="848.0857660471781" y="766.0" />
+              <point x="848.0857660471781" y="438.0" />
+              <point x="811.4929240170205" y="438.0" />
+              <point x="811.4929240170205" y="149.0" />
+              <point x="510.61935258844915" y="149.0" />
+              <point x="25.98214285714289" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO" target="nl.han.ica.oose.dea.spotitube.exceptionMapper">
+              <point x="45.83333333333326" y="-14.5" />
+              <point x="967.633385094797" y="528.0" />
+              <point x="985.9572097313062" y="528.0" />
+              <point x="985.9572097313062" y="219.0" />
+              <point x="963.1572097313062" y="219.0" />
+              <point x="34.40000000000009" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.services.ItrackService">
+              <point x="-61.875" y="-14.5" />
+              <point x="277.29867813509026" y="716.0" />
+              <point x="202.67307692307713" y="716.0" />
+              <point x="14.25" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TokenServiceTest" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="-52.125" y="-14.5" />
+              <point x="1209.8866969107935" y="876.0" />
+              <point x="1202.3146671273519" y="876.0" />
+              <point x="12.53571428571422" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.models" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="0.0" y="-14.5" />
+              <point x="452.7014954455919" y="209.0" />
+              <point x="482.90506687416337" y="209.0" />
+              <point x="-1.7321428571428896" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.models" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-56.639999999999986" y="14.5" />
+              <point x="396.0614954455919" y="288.0" />
+              <point x="373.7014954455919" y="288.0" />
+              <point x="373.7014954455919" y="260.75" />
+              <point x="-59.0" y="7.25" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-40.39999999999998" y="-14.5" />
+              <point x="490.1143374757496" y="617.0" />
+              <point x="511.27366460482375" y="617.0" />
+              <point x="511.27366460482375" y="488.0" />
+              <point x="462.14149544559194" y="488.0" />
+              <point x="9.440000000000055" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackService" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-25.111111111111086" y="-14.5" />
+              <point x="140.0625670239791" y="846.0" />
+              <point x="109.92307692307713" y="846.0" />
+              <point x="109.92307692307713" y="488.0" />
+              <point x="424.38149544559184" y="488.0" />
+              <point x="-28.32000000000005" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO">
+              <point x="39.0" y="-14.5" />
+              <point x="882.8355693667286" y="776.0" />
+              <point x="918.2901385330761" y="776.0" />
+              <point x="918.2901385330761" y="627.0" />
+              <point x="908.0500517614637" y="627.0" />
+              <point x="-13.75" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackService" target="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO">
+              <point x="25.111111111111114" y="-14.5" />
+              <point x="190.28478924620129" y="736.0" />
+              <point x="498.9518374757496" y="736.0" />
+              <point x="-31.5625" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackService" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="50.22222222222223" y="-14.5" />
+              <point x="215.39590035731243" y="816.0" />
+              <point x="1143.8146671273519" y="816.0" />
+              <point x="-45.96428571428578" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-46.285714285714334" y="-14.5" />
+              <point x="723.6208791208794" y="1035.0" />
+              <point x="469.5143374757496" y="1035.0" />
+              <point x="469.5143374757496" y="498.0" />
+              <point x="457.4214954455919" y="498.0" />
+              <point x="4.720000000000027" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="-47.59999999999991" y="-14.5" />
+              <point x="1312.556593406594" y="1005.0" />
+              <point x="1342.0116969107935" y="1005.0" />
+              <point x="1342.0116969107935" y="856.0" />
+              <point x="1219.0289528416374" y="856.0" />
+              <point x="29.249999999999943" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.services.IPlaylistService">
+              <point x="-39.0" y="-14.5" />
+              <point x="804.8355693667286" y="726.0" />
+              <point x="710.3893374757497" y="726.0" />
+              <point x="46.875" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.dto" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="5.196428571428555" y="14.5" />
+              <point x="489.8336383027348" y="209.0" />
+              <point x="499.90149544559193" y="209.0" />
+              <point x="47.200000000000045" y="-14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.exceptionMapper" target="nl.han.ica.oose.dea.spotitube.exceptionMapper">
+              <point x="-68.80000000000001" y="14.5" />
+              <point x="859.9572097313062" y="49.0" />
+              <point x="822.7572097313061" y="49.0" />
+              <point x="822.7572097313061" y="14.5" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="-41.53846153846155" y="-14.5" />
+              <point x="39.665138533076174" y="1085.0" />
+              <point x="35.38461538461547" y="1085.0" />
+              <point x="35.38461538461547" y="119.0" />
+              <point x="451.7264954455919" y="119.0" />
+              <point x="-32.910714285714334" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp" target="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO">
+              <point x="-8.4375" y="-14.5" />
+              <point x="1524.4151385330763" y="627.0" />
+              <point x="1469.1991969107935" y="627.0" />
+              <point x="32.1875" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="42.1875" y="-14.5" />
+              <point x="1574.6366969107935" y="866.0" />
+              <point x="1557.4151385330763" y="866.0" />
+              <point x="1557.4151385330763" y="119.0" />
+              <point x="521.0122097313063" y="119.0" />
+              <point x="36.375" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO" target="nl.han.ica.oose.dea.spotitube.exceptionMapper">
+              <point x="0.0" y="-14.5" />
+              <point x="530.5143374757496" y="627.0" />
+              <point x="533.2736646048238" y="627.0" />
+              <point x="533.2736646048238" y="508.0" />
+              <point x="825.9572097313062" y="508.0" />
+              <point x="825.9572097313062" y="219.0" />
+              <point x="894.3572097313062" y="219.0" />
+              <point x="-34.39999999999998" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-41.200000000000045" y="-14.5" />
+              <point x="1395.8116969107937" y="358.0" />
+              <point x="499.90149544559193" y="358.0" />
+              <point x="47.200000000000045" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO">
+              <point x="-65.0" y="-14.5" />
+              <point x="778.8355693667286" y="746.0" />
+              <point x="562.0768374757496" y="746.0" />
+              <point x="31.5625" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceImp" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="25.3125" y="-14.5" />
+              <point x="1557.7616969107935" y="876.0" />
+              <point x="1546.4151385330763" y="876.0" />
+              <point x="1546.4151385330763" y="318.0" />
+              <point x="509.3414954455919" y="318.0" />
+              <point x="56.639999999999986" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.datasources.TrackDAO">
+              <point x="-36.0" y="-14.5" />
+              <point x="733.9065934065936" y="1025.0" />
+              <point x="537.9964803328925" y="1025.0" />
+              <point x="537.9964803328925" y="756.0" />
+              <point x="536.8268374757496" y="756.0" />
+              <point x="6.3125" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.services.ILoginService">
+              <point x="-61.200000000000045" y="-14.5" />
+              <point x="1298.9565934065936" y="1055.0" />
+              <point x="1048.300051761464" y="1055.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO" target="nl.han.ica.oose.dea.spotitube.datasources.DataAccesObject">
+              <point x="20.59999999999991" y="-14.5" />
+              <point x="1457.6116969107934" y="328.0" />
+              <point x="963.8738763979729" y="328.0" />
+              <point x="57.91666666666674" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-10.384615384615358" y="-14.5" />
+              <point x="70.81898468692236" y="1085.0" />
+              <point x="66.53846153846177" y="1085.0" />
+              <point x="66.53846153846177" y="468.0" />
+              <point x="414.9414954455919" y="468.0" />
+              <point x="-37.75999999999999" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceImp" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="52.0" y="-14.5" />
+              <point x="895.8355693667286" y="836.0" />
+              <point x="1160.5289528416376" y="836.0" />
+              <point x="-29.25" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.services.TrackService">
+              <point x="20.769230769230774" y="-14.5" />
+              <point x="101.97283084076855" y="1025.0" />
+              <point x="165.1736781350902" y="1025.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.services.ILoginService">
+              <point x="50.625" y="-14.5" />
+              <point x="389.79867813509026" y="786.0" />
+              <point x="989.3000517614639" y="786.0" />
+              <point x="-44.25" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.IPlaylistService" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="0.0" y="-14.5" />
+              <point x="663.5143374757497" y="498.0" />
+              <point x="651.421495445592" y="498.0" />
+              <point x="651.421495445592" y="199.0" />
+              <point x="493.2979240170206" y="199.0" />
+              <point x="8.660714285714334" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.LoginDAO" target="nl.han.ica.oose.dea.spotitube.exceptionMapper">
+              <point x="41.200000000000045" y="-14.5" />
+              <point x="1478.2116969107938" y="528.0" />
+              <point x="1579.4151385330763" y="528.0" />
+              <point x="1579.4151385330763" y="99.0" />
+              <point x="997.5572097313061" y="99.0" />
+              <point x="68.79999999999995" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackService" target="nl.han.ica.oose.dea.spotitube.services.ItrackService">
+              <point x="0.0" y="-14.5" />
+              <point x="165.1736781350902" y="716.0" />
+              <point x="174.17307692307713" y="716.0" />
+              <point x="-14.25" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.ItrackService" target="nl.han.ica.oose.dea.spotitube.dto">
+              <point x="0.0" y="-14.5" />
+              <point x="188.42307692307713" y="149.0" />
+              <point x="462.11935258844915" y="149.0" />
+              <point x="-22.51785714285711" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.LoginServiceTest" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="-6.7999999999999545" y="-14.5" />
+              <point x="1353.3565934065937" y="1035.0" />
+              <point x="1375.0116969107935" y="1035.0" />
+              <point x="1375.0116969107935" y="368.0" />
+              <point x="495.1814954455919" y="368.0" />
+              <point x="42.48000000000002" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.datasources.DataAccesObject" target="nl.han.ica.oose.dea.spotitube.exceptionMapper">
+              <point x="0.0" y="-14.5" />
+              <point x="905.9572097313062" y="219.0" />
+              <point x="928.7572097313061" y="219.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.TrackServiceTest" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="51.923076923076906" y="-14.5" />
+              <point x="133.12667699461463" y="1055.0" />
+              <point x="437.9429089043211" y="1055.0" />
+              <point x="437.9429089043211" y="826.0" />
+              <point x="1152.1718099844948" y="826.0" />
+              <point x="-37.60714285714289" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.services.TokenService">
+              <point x="66.85714285714289" y="-14.5" />
+              <point x="836.7637362637365" y="1085.0" />
+              <point x="1182.0116969107935" y="1085.0" />
+              <point x="1182.0116969107935" y="876.0" />
+              <point x="1193.957524270209" y="876.0" />
+              <point x="4.178571428571331" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.controllers" target="nl.han.ica.oose.dea.spotitube.models">
+              <point x="16.875" y="-14.5" />
+              <point x="356.04867813509026" y="716.0" />
+              <point x="393.14590776384546" y="716.0" />
+              <point x="393.14590776384546" y="528.0" />
+              <point x="443.26149544559183" y="528.0" />
+              <point x="-9.440000000000055" y="14.5" />
+            </edge>
+            <edge source="nl.han.ica.oose.dea.spotitube.services.PlaylistServiceTest" target="nl.han.ica.oose.dea.spotitube.datasources.PlaylistDAO">
+              <point x="36.0" y="-14.5" />
+              <point x="805.9065934065936" y="1045.0" />
+              <point x="942.6748550810141" y="1045.0" />
+              <point x="942.6748550810141" y="627.0" />
+              <point x="935.5500517614637" y="627.0" />
+              <point x="13.75" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1070,130 +1746,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCB7D7519/PlaylistService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCB7454D8/PlaylistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistsModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistOverviewDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCB793E76/PlaylistResource.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="540">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/inject/Inject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCB7FC020/PlaylistResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ITokenService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCB75E9A2/AuthenticationService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ILoginService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="38">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/LoginRequestDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/ITrackDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackOverviewDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/IPlaylistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1394">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/TrackModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/IPlaylistDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="54">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/PlaylistRequestDto.java">
+    <entry file="jar://C:/opt/jdk-11.0.2/lib/src.zip!/java.base/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="168">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="72">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1202,81 +1837,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/TrackDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="72">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/models/PlaylistModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TrackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/LoginServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="59" column="56" lean-forward="true" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/GeneralExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="72">
+          <caret line="11" column="3" selection-start-line="11" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1285,111 +1857,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/LoginControllerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/PlaylistDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/DataAccesObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="236">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/NotfoundExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/TokenException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/dto/TrackRequestDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/GeneralExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1398,35 +1898,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/LoginExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/LoginRequestDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/controllers/PlaylistControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/LoginResponseDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        <state relative-caret-position="72">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/PlaylistServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="63" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/PlaylistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Junit tests/nl/han/ica/oose/dea/spotitube/services/TrackServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/exceptionMapper/DatabaseExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/PlaylistOverviewDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/dto/TrackOverviewDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/LoginDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/datasources/ILoginDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/controllers/TrackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/ItrackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/oose/dea/spotitube/services/TokenServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1439,7 +2094,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>nl.han.ica.oose.dea.spotitube:war</last-edited>
+          <last-edited>nl.han.ica.oose.dea.spotitube:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
